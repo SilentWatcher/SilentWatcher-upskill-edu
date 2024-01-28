@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Edu page</title>
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <!-- FONTAWESOME CDN  -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- SWIPERLJS CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+    </head>
+    <body>
+        <!-- ===============START OF NAVBAR ================= -->
+        <nav>
+            <div class="container nav__container">
+                <a href="index.html"><h4>UPSKILL</h4></a>
+                <ul class="nav__menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button id="open_menu_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button id="close_menu_btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </nav>
+        <!--=============== END OF NAVBAR =========================  -->
+        <!--===============START OF HEADER=========================  -->
+        <header>
+            <div class="container header__container">
+                <div class="header__right">
+                    <h1>Grow you skills to advance your career path</h1>
+                    <p>
+                        You’ll find the best online course websites covering a
+                        range of topics including digital marketing, graphic
+                        design, coding, personal development, marketing,
+                        business, photography, and much more.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary"
+                        >Get Started</a
+                    >
+                </div>
+                <div class="header__right">
+                    <div class="header__right-image">
+                        <img src="./images/header.svg" alt="header.svg" />
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ========== END OF HEADER ========================= -->
+
+        <section class="catagories">
+            <div class="container catagories__container">
+                <div class="catagories__left">
+                    <h1>Catagories</h1>
+                    <p>
+                        Transform your life through education Learners around
+                        the world are launching new careers, advancing in their
+                        fields, and enriching their lives.
+                    </p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="catagories__right">
+                    <article class="catagory">
+                        <span class="catagory__icon"
+                            ><i class="fa-solid fa-bitcoin-sign"></i
+                        ></span>
+                        <h5>Blockchain</h5>
+                        <p>
+                            Generated massive interest among governments,
+                            enterprises, and academics,
+                        </p>
+                    </article>
+                    <article class="catagory">
+                        <span class="catagory__icon"
+                            ><i class="fa-solid fa-palette"></i
+                        ></span>
+                        <h5>Graphic Design</h5>
+                        <p>
+                            Learn and apply the principles of graphic design
+                            towards a comprehensive branding project.
+                        </p>
+                    </article>
+                    <article class="catagory">
+                        <span class="catagory__icon"
+                            ><i class="fa-solid fa-sack-dollar"></i
+                        ></span>
+                        <h5>Finance</h5>
+                        <p>
+                            Be financially and data literate to lead with
+                            success.
+                        </p>
+                    </article>
+                    <article class="catagory">
+                        <span class="catagory__icon"
+                            ><i class="fa-solid fa-bullhorn"></i
+                        ></span>
+                        <h5>Marketing</h5>
+                        <p>
+                            Marketing courses teach strategies for influencing
+                            customer behavior throughout the customer lifecycle.
+                        </p>
+                    </article>
+                    <article class="catagory">
+                        <span class="catagory__icon"
+                            ><i class="fa-solid fa-music"></i
+                        ></span>
+                        <h5>Music</h5>
+                        <p>
+                            Discover the science of song with these online
+                            courses exploring the full scale of music, from
+                            teaching to culture.
+                        </p>
+                    </article>
+                    <article class="catagory">
+                        <span class="catagory__icon"
+                            ><i class="fa-solid fa-briefcase"></i
+                        ></span>
+                        <h5>Business</h5>
+                        <p>
+                            An ever expanding program of courses helping
+                            financial professionals aspire to the top levels of
+                            financial leadership
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--================ END OF CATRAGORY ============================================= -->
+        <!--================ START OF COURSE ============================================= -->
+        <section class="courses">
+            <h2>Our Popular Courses</h2>
+            <div class="container course__container">
+                <!-- COURSE1 -->
+                <article class="course">
+                    <div class="course__image">
+                        <img src="images/course1.jpg" alt="course1.jpg" />
+                    </div>
+                    <div class="course__info">
+                        <h4>Responsive Social Media Website UI Design</h4>
+                        <p>
+                            Get started with responsive Web design! In this
+                            article, you’ll find how to respond to the user’s
+                            behavior and environment based on screen size,
+                            platform and orientation.
+                        </p>
+                        <a href="courses.html" class="btn btn-primary"
+                            >Learn More</a
+                        >
+                    </div>
+                </article>
+                <!-- COURSE 2 -------------------------------------------------->
+                <article class="course">
+                    <div class="course__image">
+                        <img src="images/course2.jpg" alt="course2.jpg" />
+                    </div>
+                    <div class="course__info">
+                        <h4>Responsive smartHome Website Design</h4>
+
+                        <p>
+                            This UI kit has all you need to manage your
+                            hypothetical customer’s smart devices like
+                            thermostats, lights, and other appliances that make
+                            for a connected modern home.
+                        </p>
+                        <a href="courses.html" class="btn btn-primary"
+                            >Learn More</a
+                        >
+                    </div>
+                </article>
+                <!-- COURSE 3 -->
+                <article class="course">
+                    <div class="course__image">
+                        <img src="images/course3.jpg" alt="course3.jpg" />
+                    </div>
+                    <div class="course__info">
+                        <h4>Responsive Admin Dashboard UI Design</h4>
+                        <p>
+                            One Admin Dashboard UI Kit is a gorgeous set
+                            developed to inspire Your next design and it’s
+                            totally based on Modern Semi Flat Design Standards,
+                            right with this User Interface.
+                        </p>
+                        <a href="courses.html" class="btn btn-primary"
+                            >Learn More</a
+                        >
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--================ END OF COURSE ============================================= -->
+        <!--================ START OF FAQS ============================================= -->
+        <section class="faqs">
+            <div class="container faqs__container">
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>Q. Who should take an Online Course?</h4>
+                        <p>
+                            Students join our online courses for a variety of
+                            reasons and come from diverse backgrounds,
+                            professions, and age groups. With online courses,
+                            you can Advance your skill-set or begin a career
+                            change. Take the next step in your formal education.
+                            Ease the transition before entering a full-time
+                            academic program. Enjoy learning a new topic.
+                            Whatever the reason, our online courses are a
+                            flexible way of learning about the art world without
+                            disrupting your daily life.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>Q. How do I select a course?</h4>
+                        <p>
+                            Visit the course catalog to browse our offerings. In
+                            addition to searching by course duration and
+                            availability, you can also search by subject to
+                            ensure you find a course that reflects your
+                            interests. Though it is not required, we encourage
+                            those who have not studied art before to consider
+                            taking an art history course first to get a solid
+                            grounding in the discipline before exploring more
+                            specific disciplines. Our art history courses are
+                            the perfect first step before moving on to art
+                            market courses.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>
+                            Q. Are there prerequisites or language requirements?
+                        </h4>
+                        <p>
+                            There are no prerequisites. Our courses are open to
+                            students of all backgrounds who are 18 years of age
+                            and older. All courses are conducted in English.
+                            Video lectures include English subtitles and the
+                            option to slow-down, pause, or replay lectures for
+                            better retention. Discussion boards are a critical
+                            component of each of our courses; therefore, we
+                            suggest students have a conversational knowledge of
+                            English when pursuing a Certificate of Completion.
+                            For any of the art writing courses, students need to
+                            be 100% proficient in written English.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>I am a high school student, can I join?</h4>
+                        <p>
+                            Courses are open to all students 18 years or older.
+                            If you are under 18 years old, please contact us
+                            (online@sothebysinstitute.com) to discuss further.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>Q. Can I take more than one course at a time?</h4>
+                        <p>
+                            If you are new to online learning, we recommend that
+                            you begin with one course. As our courses are
+                            offered frequently throughout the year, you can
+                            always come back and continue your studies with one
+                            or more topics.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>
+                            Q. What should I do if I need to start the course
+                            late?
+                        </h4>
+                        <p>
+                            It is recommended that you begin your course
+                            promptly. If you do need to start the course a few
+                            days late, contact your instructor as soon as
+                            possible after the course has opened to discuss your
+                            options. Registration closes on the Friday after the
+                            course begins.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>Q. How do I register?</h4>
+                        <p>
+                            Registration is available on our website. Just
+                            follow these simple steps: Click the “Apply Now”
+                            button in the top right corner of your screen.
+                            Select “Online Courses.” Choose your course(s).
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>Q. When should I register?</h4>
+                        <p>
+                            Most courses are offered at least 3 times during the
+                            year. Certain courses can fill up quickly, so be
+                            sure to register early.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>Q. My payment did not go through. What do I do?</h4>
+                        <p>
+                            We apologize for this inconvenience. We encourage
+                            you to reach out to your financial institution as
+                            further permissions may be needed to complete the
+                            payment. You are also welcome to write to
+                            online@sothebysinstitute.com for further guidance.
+                            Please wait a full 24 hours before trying again. A
+                            strong Internet connection and up-to-date browser
+                            are strongly recommended.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq">
+                    <div class="faq__icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="question__answer">
+                        <h4>
+                            Q. Do you provide financial assistance or payment
+                            plans?
+                        </h4>
+                        <p>
+                            As noncredit courses, our online courses are not
+                            eligible for state or federal financial aid. Some
+                            students seek professional development support from
+                            their employer or from external scholarships. In the
+                            United States, fees paid for professional
+                            development are deductible from your personal income
+                            taxes to the extent permitted by current law. While
+                            we do not offer automatic payment plans at this
+                            time, please reach out to online@sia.edu to discuss
+                            payment alternatives, such as wire transfers.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--====================TESTIMONIALS====================================== -->
+        <section class="container testimonials__container mySwiper">
+            <h2>Testimonials</h2>
+            <div class="swiper-wrapper">
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img
+                            class="soham"
+                            src="./images/avatar6Soham.jpg"
+                            alt="avatar1.jpg"
+                        />
+                    </div>
+
+                    <div class="testimonials__info">
+                        <h5>Soham Bhosale</h5>
+                        <small>Developer</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            learning form scratch and going deep in noance of all things and live mentorship its worth it. Upskill is great platform for beginner to advance if you decided to
+                            become developer its geniunaly fantastic.
+                        </p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar1.jpg" alt="avatar1.jpg" />
+                    </div>
+
+                    <div class="testimonials__info">
+                        <h5>Dina Ayi</h5>
+                        <small>Designer</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            The program has honestly revolutionized the way I
+                            think about design. It taught me a framework and
+                            provide the tools to consistently execute on my
+                            work.It teach language of designer which one should understand to become kickass desinger.
+                        </p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar2.jpg" alt="avatar1.jpg" />
+                    </div>
+
+                    <div class="testimonials__info">
+                        <h5>Ernest Achiever</h5>
+                        <small>Marketing</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi quae labore corporis id omnis odit
+                            repellat sint quia sequi? Neque molestias voluptas
+                            nihil facere vero, magnam ipsa nesciunt non
+                            architecto?
+                        </p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar3.jpg" alt="avatar1.jpg" />
+                    </div>
+
+                    <div class="testimonials__info">
+                        <h5>Edim quist</h5>
+                        <small>Student</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi quae labore corporis id omnis odit
+                            repellat sint quia sequi? Neque molestias voluptas
+                            nihil facere vero, magnam ipsa nesciunt non
+                            architecto?
+                        </p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar4.jpg" alt="avatar1.jpg" />
+                    </div>
+
+                    <div class="testimonials__info">
+                        <h5>Hijia Bintu</h5>
+                        <small>Student</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi quae labore corporis id omnis odit
+                            repellat sint quia sequi? Neque molestias voluptas
+                            nihil facere vero, magnam ipsa nesciunt non
+                            architecto?
+                        </p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar5.jpg" alt="avatar1.jpg" />
+                    </div>
+
+                    <div class="testimonials__info">
+                        <h5>MCKAYLA GRACE</h5>
+                        <small>Student</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>
+                            I'm a creative with a coffee addiction and a passion
+                            for words. I Learned how to play guiter i feel it will be
+                            diffcult but when i learn instructor at Upskill it
+                            become way more easier. It's totally worth it. 
+
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+        <!-- ===================END OF TESTIMONIALS====================== -->
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__1">
+                    <a href="" class="footer__logo"><h4>UPSKILL</h4></a>
+                    <p>Start, switch, or advance your career with Upskill</p>
+                </div>
+                <div class="footer__2">
+                    <h4>Permalinks</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__3">
+                    <h4>Privacy</h4>
+                    <ul class="privacy">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and conditions</a></li>
+                        <li><a href="#">Refun Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer__4">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <p>+1234567890</p>
+                        <p>testingemail1295@gmail.com</p>
+                    </div>
+                </div>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copyright">
+                <small>copyright &copy; UPSKILL YOUTUBE Tutorials</small>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./main.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    600: {
+                        slidesPerView: 2,
+                    },
+                },
+            });
+        </script>
+    </body>
+</html>
